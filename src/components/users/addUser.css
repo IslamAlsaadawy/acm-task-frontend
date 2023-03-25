@@ -1,0 +1,25 @@
+.user_button{
+    background-color:  rgb(209, 170, 62);;
+    padding: 1rem;
+    width: 30%;
+    align-items: center;
+    place-items: center;
+    margin-left: 35%;
+    border-radius: 0.9rem;
+    border-color: transparent;
+}
+
+.dropdown{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.6rem;
+}
+
+.dropdown_select{
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
