@@ -6,6 +6,7 @@ import AddUser from './components/users/addUser';
 import AddToCart from './components/users/Cart/addToCart';
 import { RouterProvider,BrowserRouter as Router,Routes,Route } from 'react-router-dom';
 import ViewCart from './components/users/Cart/viewCart';
+import ViewProducts from './components/products/viewProducts';
 
 
 function App() {
@@ -17,8 +18,10 @@ function App() {
         <Navbar></Navbar>
         <Routes>
           <Route path='/' element={<AddUser></AddUser>} />
-          <Route path='/products' element={<AddToCart></AddToCart>} />
-          <Route path = 'carts' element = {<ViewCart/>}/>
+          <Route path='/Addtocart' element={<AddToCart></AddToCart>} />
+          <Route path = '/carts' element = {<ViewCart/>}/>
+          <Route path = '/products' element = {<ViewProducts/>}/>
+
 
         </Routes>
         {/* <AddUser></AddUser> */}
